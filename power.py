@@ -1,14 +1,10 @@
 # pow(x,y) w/out using library functions
 
-def compute_power(base, exponent):
-    result = 1
-    while exponent != 0:
-        result *= base
-        exponent -= 1
-    return result
+n = int(input('Enter power: '))
+x = int(input('Enter the number: '))
+print(x**n)
 
-print("-- POW(X,Y) --")
-base = int(input("Reading base... "))
-exponent = int(input('Reading exponent... '))
-
-print('Result :', compute_power(base, exponent))
+# OUTPUT:
+#     Enter power: 3
+#     Enter the number: 2
+#         8

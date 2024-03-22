@@ -18,3 +18,9 @@ c = p/fact(r)
 
 print("nPr :", p)
 print("nCr :", c)
+
+# OUTPUT:
+#     Enter n : 5
+#     Enter r : 2
+#     nPr : 20.0
+#     nCr : 10.0

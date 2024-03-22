@@ -15,3 +15,10 @@ if solution1 == solution2:
     print("The solution is", solution1)
 else:
     print("The solutions are", solution1,"and",solution2)
+    
+    
+# OUTPUT:
+#     Enter a : 1
+#     Enter b : 2
+#     Enter c : 1
+#     The solution is (-1+0j)

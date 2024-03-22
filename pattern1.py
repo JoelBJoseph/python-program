@@ -9,3 +9,11 @@ if rows <= 26 and rows > 0:
             print(alphabet, end=" ")
             start += 1
         print()
+        
+# OUTPUT:
+    # Row count (not greater than 26) : 5
+    # A 
+    # A B 
+    # A B C 
+    # A B C D 
+    # A B C D E 
