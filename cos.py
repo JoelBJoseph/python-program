@@ -10,12 +10,11 @@ def fact(n):
 
 n = int(input('Enter the  limit: '))
 x = int(input('Enter the value of x: '))
-sign = -1
+
 cos = 1
 
 for i in range (n):
     cos += ((-1) ** i) * (x ** (2 * i)) / fact(2 * i)
-    sign = - sign
     
 print(cos)
 
